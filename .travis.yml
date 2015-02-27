@@ -1,0 +1,12 @@
+
+env:
+  global:
+  	secure: "EUbUNpzGRmqak0SQwcjGd7l+o1EwXJpcfK/kZJwy8mrTZdGFqy4uN83FO7WLqLc/0Fn03TBGSIKm/6nf0OEoXKPX6n07rg+6A8OAbF8YXtdl80qAcwlYrgcWI7Jd6W6WSETZEqRKlEmScpTGvsZnaWbssSur5Fja2jSWtGy02Hc="
+
+install:
+  - apt-get update && apt-get install -y zip unzip docker.io 
+  - docker login --username="jlgrock" --password="$DOCKER_PASS"
+
+script:
+  - docker build -t jlgrock/snp-prototype-mongodb-client
+  - docker push jlgrock/snp-prototype-mongodb-client
