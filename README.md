@@ -6,4 +6,4 @@ This is used to support the [Semantic Normalization Prototype](https://github.co
 
 Travis-CI Build Status
 ---------------------
-![Build Status](https://travis-ci.org/jlgrock/snp-prototype.svg?branch=master)
+![Build Status](https://travis-ci.org/jlgrock/snp-prototype-mongodb-client.svg?branch=master)
