@@ -1,7 +1,6 @@
-
 env:
   global:
-  	secure: "EUbUNpzGRmqak0SQwcjGd7l+o1EwXJpcfK/kZJwy8mrTZdGFqy4uN83FO7WLqLc/0Fn03TBGSIKm/6nf0OEoXKPX6n07rg+6A8OAbF8YXtdl80qAcwlYrgcWI7Jd6W6WSETZEqRKlEmScpTGvsZnaWbssSur5Fja2jSWtGy02Hc="
+    secure: "O9WYSbPHpoD2TNXlnmsiYvNqXc8srv4DMwalxFpgCkuPA6li2PghOvkMFel04CnrmSE3BOc2q+WmHXVF+pTrSTwgfYLhGp2Be88vGlYJ0DZG5gMZ5nE8FTCRZKK1sFjansvcL4oZaFIpaU8qDsTncEfbBW3aBB9+Ed4dJme79TA="
 
 install:
   - apt-get update && apt-get install -y zip unzip docker.io 
