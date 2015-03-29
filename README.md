@@ -5,8 +5,8 @@ A basic MongoDB instance that is used as a client and is bootstrapped with some 
 This is used to support the [Semantic Normalization Prototype](https://github.com/jlgrock/snp-prototype).  Documentation on how to use this can also be found there.
 
 Release Procedures:
-  - sudo docker build -t jlgrock/snp-prototype-mongodb-client
-  - sudo docker push jlgrock/snp-prototype-mongodb-client
+  - `sudo docker build -t jlgrock/snp-prototype-mongodb-client`
+  - `sudo docker push jlgrock/snp-prototype-mongodb-client`
 
 Run Procedures:
   - see [Docker Hub](https://registry.hub.docker.com/u/jlgrock/snp-prototype-mongodb-client/)
