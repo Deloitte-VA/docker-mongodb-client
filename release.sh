@@ -6,6 +6,6 @@ read VERSION
 
 IMAGE=jlgrock/snp-prototype-mongodb-client
 
-docker build -t $IMAGE .
+docker build -t $IMAGE:$VERSION .
 docker push $IMAGE:$VERSION
 
