@@ -1,3 +1,5 @@
+[![Build Status](http://52.5.163.147:8080/buildStatus/icon?job=snp-prototype-mongodb-client)](http://52.5.163.147:8080/job/snp-prototype-mongodb-client)
+
 # snp-prototype-mongodb-client
 
 A basic MongoDB instance that is used as a client and is bootstrapped with some scripts that can be viewed or executed.  
